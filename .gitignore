@@ -1,0 +1,5 @@
+# Bỏ qua file thực thi Windows
+*.exe
+
+# Các file build thông thường
+*.o
