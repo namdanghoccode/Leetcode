@@ -25,4 +25,6 @@ int main()
 {
     input();
     cout << strStr(haystack, needle);
+
+    system("pause");
 }

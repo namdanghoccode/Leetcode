@@ -16,4 +16,6 @@ int main()
 {
     string s; cin >> s;
     cout << firstUniqChar(s);
+
+    system("pause");
 }

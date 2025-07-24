@@ -3,7 +3,7 @@ using namespace std;
 
 vector<int> findDisappearedNumbers(vector<int>& nums) {
     int cnt[100001];
-    memsize(cnt, sizeof(cnt), 0);
+    memset(cnt, sizeof(cnt), 0);
     vector<int> tmp;
     for(int i = 0; i < nums.size(); i++){
         cnt[nums[i]] = 1;
@@ -24,4 +24,6 @@ int main()
     }
     vector<int> result = findDisappearedNumbers(nums);
     for(int num : result) cout << num << " ";
+
+    system("pause");
 }

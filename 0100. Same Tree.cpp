@@ -62,4 +62,6 @@ int main()
     TreeNode *p1 = buildTree(p);
     TreeNode *q1 = buildTree(q);
     cout << isSameTree(p1, q1);
+
+    system("pause");
 }

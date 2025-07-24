@@ -66,4 +66,6 @@ int main()
 
     TreeNode *p1 = buildTree(p);
     cout << isSymmetric(p1);
+
+    system("pause");
 }

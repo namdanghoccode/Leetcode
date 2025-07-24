@@ -21,4 +21,6 @@ int main()
         nums.push_back(x);
     }
     cout << containsDuplicate(nums);
+
+    system("pause");
 }

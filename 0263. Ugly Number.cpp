@@ -15,4 +15,6 @@ int main()
 {
     int n; cin >> n;
     cout << isUgly(n);
+
+    system("pause");
 }

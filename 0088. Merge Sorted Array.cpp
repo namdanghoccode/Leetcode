@@ -39,4 +39,6 @@ int main()
         int y; cin >> y;
         nums2[i] = y;
     }
+
+    system("pause");
 }

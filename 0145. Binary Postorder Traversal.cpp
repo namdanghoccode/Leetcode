@@ -55,7 +55,7 @@ void postorder(TreeNode* root, vector<int> &tmp)
 
 vector<int> postorderTraversal(TreeNode* root) {
     vector<int> res;
-    preorder(root, res);
+    postorder(root, res);
     return res;
 }
 
@@ -69,6 +69,8 @@ int main()
     }
 
     TreeNode* root = buildTree(nodes);
-    vector<int> result = preorderTraversal(root);
+    vector<int> result = postorderTraversal(root);
     for(int num : result) cout << num << " ";
+
+    system("pause");
 }

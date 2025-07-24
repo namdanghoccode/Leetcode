@@ -47,4 +47,6 @@ int main()
     TreeNode* root = sortedArrayToBST(nodes);
     inorder(root); // Duyệt trung thứ để in
     cout << endl;
+
+    system("pause");
 }

@@ -23,4 +23,6 @@ int main()
 {
     int x; cin >> x;
     cout << mySqrt(x);
+
+    system("pause");
 }

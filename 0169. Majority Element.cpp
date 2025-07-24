@@ -7,7 +7,7 @@ int majorityElement(vector<int>& nums) {
     int votes = 0;
 
     for(int num : nums){
-        if(vote == 0){
+        if(votes == 0){
             candidate = num;
             votes = 1;
         }
@@ -24,6 +24,7 @@ int majorityElement(vector<int>& nums) {
     if(cnt > nums.size() / 2) return candidate;
 
     return -1;
+}
 
 int main()
 {
@@ -33,4 +34,6 @@ int main()
         cin >> nums[i];
     }
     cout << majorityElement(nums);
+
+    system("pause");
 }

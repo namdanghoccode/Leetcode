@@ -20,7 +20,7 @@ int Reverse(int x) {
         }
         return num;
     }
-    catch
+    catch(...)
     {
         return 0;
     }
@@ -29,5 +29,7 @@ int Reverse(int x) {
 int main()
 {
     int x; cin >> x;
+    cout << Reverse(x) << endl;
 
+    system("pause");
 }

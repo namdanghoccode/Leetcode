@@ -18,5 +18,7 @@ int lengthOfLongestSubstring(string s) {
 int main()
 {
     string s; cin >> s;
-    cout << lengthOfLongestSubstring(s);
+    cout << lengthOfLongestSubstring(s) << endl;
+
+    system("pause");
 }

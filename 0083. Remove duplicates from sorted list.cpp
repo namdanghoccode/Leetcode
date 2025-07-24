@@ -67,4 +67,6 @@ int main()
     input(head, n);
     head = deleteDuplicates(head);
     output(head);
+
+    system("pause");
 }

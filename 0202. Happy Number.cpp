@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-long long getNextNum(int n)
+long long getNextNum(int num)
 {
     long long newNum = 0;
     while(num){
@@ -26,4 +26,6 @@ int main()
 {
     int n; cin >> n;
     cout << isHappy(n);
+
+    system("pause");
 }

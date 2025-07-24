@@ -22,4 +22,6 @@ int main()
         nums.push_back(x);
     }
     cout << search(nums, target);
+
+    system("pause");
 }

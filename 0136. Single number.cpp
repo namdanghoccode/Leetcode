@@ -21,4 +21,6 @@ int main()
         nums.push_back(x);
     }
     cout << singleNumber(nums);
+
+    system("pause");
 }

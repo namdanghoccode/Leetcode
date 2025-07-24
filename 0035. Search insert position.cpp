@@ -29,4 +29,6 @@ int main()
 {
     input();
     cout << searchInsert(nums, target);
+
+    system("pause");
 }

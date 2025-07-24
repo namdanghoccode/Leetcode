@@ -23,4 +23,6 @@ int main()
     vector<int> height(n);
     for(int i = 0; i < n; i++) cin >> height[i];
     cout << maxArea(height);
+
+    system("pause");
 }

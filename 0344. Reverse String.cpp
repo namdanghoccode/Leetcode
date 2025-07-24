@@ -19,4 +19,6 @@ int main()
     }
     reverseString(s);
     for(char c : s) cout << c << " ";
+
+    system("pause");
 }

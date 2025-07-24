@@ -63,4 +63,5 @@ int main()
     TreeNode* root = buildTree(nodes);
     cout << hasPathSum(root, targetSum);
 
+    system("pause");
 }

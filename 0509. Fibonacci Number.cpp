@@ -14,4 +14,6 @@ int main()
 {
     int n; cin >> n;
     cout << fib(n);
+
+    system("pause");
 }

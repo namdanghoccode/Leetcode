@@ -18,4 +18,6 @@ int main()
 {
     string s; cin >> s;
     cout << isPalindrome(s);
+
+    system("pause");
 }

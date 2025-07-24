@@ -69,4 +69,6 @@ int main()
     TreeNode *root = buildTree(nodes);
     vector<int> ans = inorderTraversal(root);
     for(int num : ans) cout << num << " ";
+
+    system("pause");
 }

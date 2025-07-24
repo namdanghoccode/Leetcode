@@ -32,4 +32,6 @@ int main()
     }
     vector<int> result = intersection(nums1, nums2);
     for(int num : result) cout << num << " ";
+
+    system("pause");
 }

@@ -14,4 +14,6 @@ int main()
 {
     string s, t; cin >> s >> t;
     cout << findTheDifference(s, t);
+    
+    system("pause");
 }

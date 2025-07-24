@@ -17,4 +17,6 @@ int main()
 {
     int num; cin >> num;
     cout << addDigits(num);
+
+    system("pause");
 }

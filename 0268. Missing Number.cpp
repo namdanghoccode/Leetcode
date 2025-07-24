@@ -20,4 +20,6 @@ int main()
         nums.push_back(x);
     }
     cout << missingNumber(nums);
+
+    system("pause");
 }

@@ -60,4 +60,6 @@ int main()
 
     TreeNode* root = buildTree(nodes);
     cout << maxDepth(root) << endl;
+
+    system("pause");
 }

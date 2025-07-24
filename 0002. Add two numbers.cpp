@@ -82,4 +82,6 @@ int main()
     input(l1, l2, n, m);
     ListNode *res = addTwoNumbers(l1, l2);
     output(res);
+
+    system("pause");
 }
